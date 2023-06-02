@@ -6,9 +6,9 @@ import pt from '@angular/common/locales/pt';
 import { LOCALE_ID } from '@angular/core';
 
 export const appProviders = () => {
-
-  const { infrastructure } = sharedDataAccess();
+  const { infrastructure, applications } = sharedDataAccess();
   register(...infrastructure);
+  register(...applications);
 
   registerLocaleData(pt, 'pt-BR', ptBR);
   return [{ provide: LOCALE_ID, useValue: 'pt-BR' }, ...transfer()];

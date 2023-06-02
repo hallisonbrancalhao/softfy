@@ -23,6 +23,9 @@
       "@esoft7s/collection/feature-collection": [
         "libs/collection/feature-collection/src/index.ts"
       ],
+      "@esoft7s/collection/feature-collection/src/lib/containers/artists": [
+        "libs/collection/feature-collection/src/lib/containers/artists/src/index.ts"
+      ],
       "@esoft7s/dx/feature-dashboard": [
         "libs/dx/feature-dashboard/src/index.ts"
       ],
