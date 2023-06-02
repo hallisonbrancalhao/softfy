@@ -1,0 +1,45 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2020", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@esoft7s/collection/data-access": [
+        "libs/collection/data-access/src/index.ts"
+      ],
+      "@esoft7s/collection/domain": ["libs/collection/domain/src/index.ts"],
+      "@esoft7s/collection/feature-collection": [
+        "libs/collection/feature-collection/src/index.ts"
+      ],
+      "@esoft7s/dx/feature-dashboard": [
+        "libs/dx/feature-dashboard/src/index.ts"
+      ],
+      "@esoft7s/dx/feature-docs": ["libs/dx/feature-docs/src/index.ts"],
+      "@esoft7s/dx/feature-shell": ["libs/dx/feature-shell/src/index.ts"],
+      "@esoft7s/main/feature-home": ["libs/main/feature-home/src/index.ts"],
+      "@esoft7s/main/feature-shell": ["libs/main/feature-shell/src/index.ts"],
+      "@esoft7s/main/ui-content": ["libs/main/ui-content/src/index.ts"],
+      "@esoft7s/main/ui-navbar": ["libs/main/ui-navbar/src/index.ts"],
+      "@esoft7s/main/ui-player": ["libs/main/ui-player/src/index.ts"],
+      "@esoft7s/search/data-access": ["libs/search/data-access/src/index.ts"],
+      "@esoft7s/search/domain": ["libs/search/domain/src/index.ts"],
+      "@esoft7s/search/feature-search": [
+        "libs/search/feature-search/src/index.ts"
+      ],
+      "@esoft7s/shared/data-access": ["libs/shared/data-access/src/index.ts"],
+      "@esoft7s/shared/util-core": ["libs/shared/util-core/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
