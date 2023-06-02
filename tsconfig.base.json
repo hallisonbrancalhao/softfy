@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@esoft7s/collection/api": ["libs/collection/api/src/index.ts"],
       "@esoft7s/collection/data-access": [
         "libs/collection/data-access/src/index.ts"
       ],
